@@ -1,0 +1,133 @@
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 160px;
+}
+.youtube {
+    position: absolute;
+    top: 14px;
+    left: 70%;
+    width: 80px;
+}
+.dribbble {
+    position: absolute;
+    top: 14px;
+    left: 80%;
+    width: 80px;
+}
+.heroText {
+    position: absolute;
+    font-family: apparat,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    color: #343434;
+    top: 20%;
+    left: 10%;
+}
+.heroBackdrop {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    z-index: -1;
+    width: 1800px;
+}
+
+.heroDesc {
+    position: absolute;
+    font-family: apparat,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #343434;
+    top: 53%;
+    left: 10%;
+}
+.view {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    border-radius: 16px;
+    background-color: #343434;
+    color: white;
+    font-family: apparat,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 32px;
+    text-decoration: none;
+    -webkit-transition: background-color 200ms;
+      -moz-transition: background-color 200ms;
+      -o-transition: background-color 200ms;
+      transition: background-color 300ms;
+      transition: box-shadow 300ms ease-in-out;
+}
+.view:hover {
+    background-color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+  }
+  .view:active {
+      background-color: #343434;
+  }
+
+  html, body {
+    overflow: hidden;
+  }
+
+  .video {
+      width: 260px;
+      border-radius: 1px;
+      position: absolute;
+      left: 5%;
+      top: 20%;
+  }
+  .cityTitle {
+      position: absolute;
+      top: 20%;
+      left: 26%;
+      font-family: apparat,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 40px;
+      color: white;
+  }
+  .cityDesc {
+    position: absolute;
+    font-family: apparat,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8b8b8b;
+    top: 30%;
+    left: 26%;
+    width: 360px;
+  }
+
+  .video2 {
+    width: 270px;
+    border-radius: 1px;
+    position: absolute;
+    left: 52%;
+    top: 20%;
+}
+.cityTitle2 {
+    position: absolute;
+    top: 20%;
+    left: 73%;
+    font-family: apparat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+.cityDesc2 {
+    position: absolute;
+    font-family: apparat,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8b8b8b;
+    top: 30%;
+    left: 73%;
+    width: 360px;
+  }
